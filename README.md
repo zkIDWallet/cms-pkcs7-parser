@@ -35,6 +35,9 @@ pub struct Pkcs7 {
     pub content: SignedData,
     pub content_bytes: Vec<u8>,
 }
+```
+
+--- 
 
 ## 🔗 Used in zkID_Wallet
 
@@ -42,4 +45,3 @@ This library was originally developed as part of [`zkCF_Wallet`](https://github.
 
 It is now a standalone component of the more advanced [`zkID_Wallet`](https://github.com/zkid-org/zkID_Wallet), a modular and privacy-preserving identity wallet that leverages zero-knowledge cryptography to prove identity attributes without revealing them.
 
----
