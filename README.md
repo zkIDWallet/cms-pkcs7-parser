@@ -21,8 +21,8 @@ Given a `.p7b` file, the parser decodes several nested structures including:
 
 - `Pkcs7`: Root container (with content type and signed data)
 - `SignedData`: Core structure with digest algorithms, content, certificates and CRLs
-- `Certificate`, `TbsCertificate`: X.509 certificate parsing
-- `CertificateList`, `TbsCertList`: CRL (Certificate Revocation List) parsing
+- `Certificate`, `TbsCertificate`: X.509 certificate
+- `CertificateList`, `TbsCertList`: CRL (Certificate Revocation List)
 - `SignerInfo`, `SignerIdentifier`: Signer metadata
 - `Attribute`, `Extension`, `AlgorithmIdentifier`, `Name` structures
 - Optimized structs (`CertificateData`, `CrlData`) are also provided for serialization (e.g., for sending to guest code in zkVM environments).
