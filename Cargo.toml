@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "cms-pkcs7-parser"
+name = "cms_pkcs7_parser"
 path = "src/lib.rs"
 
 [dependencies]
