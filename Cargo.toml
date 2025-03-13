@@ -1,10 +1,10 @@
 [package]
-name = "cms_pkcs7_parser"
+name = "cms-pkcs7-parser"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "cms_pkcs7_parser"
+name = "cms-pkcs7-parser"
 path = "src/lib.rs"
 
 [dependencies]
